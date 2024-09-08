@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+}
+
+.boxcontainer{
+    background-color: #370617;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-container{
+    background-color: aquamarine;
+    width: 40%;
+    height: 20%;
+    padding: 10px;    
+    margin: 10px;
+    border-radius: 6px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.card{
+    margin: 10px;
+    background-color: blue;
+    width: 78px;
+    min-height: 78px;
+    border-radius: 6px;
+    box-shadow: 5px 5px rgba(119, 136, 153, 0.151);
+    color: aliceblue;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}   
+
+.container1{
+    align-items: flex-end;
+}
+
+.container2{
+    justify-content: center;
+}
+
+.container3{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container4{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.low{
+    align-self: flex-end;
+}
+
+.container5{
+    justify-content: space-around;
+}
+
+.small{
+    align-self: center;
+    min-height: 64px;   /* <-- Don't know if this is the correct way. */
+}
+
+.container6{
+    justify-content: center;
+    align-items: center;
+}
+
+.wide{
+    flex-grow: 0.5;
+}
